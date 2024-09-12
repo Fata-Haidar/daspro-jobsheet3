@@ -1,7 +1,7 @@
 /**
  * Kafe09
  */
-import java.util.Scanner;;
+import java.util.Scanner;
 public class Kafe09 {
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Kafe09 {
         totalHarga = (jmlKopi * hargaKopi) + (jmlTeh * hargaTeh) + (jmlRoti * hargaRoti);
         nominalBayar = totalHarga - (diskon* totalHarga);
 
-        System.out.println("Keanggotaan pelnggan" + keanggotaan);
+        System.out.println("Keanggotaan pelnggan " + keanggotaan);
         System.out.println("Item pembelian " + jmlKopi + " kopi " + jmlTeh + " teh " + jmlRoti + " roti");
         System.out.println("Nominal bayar Rp " + nominalBayar);
 
